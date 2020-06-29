@@ -16,3 +16,4 @@ The view is *declarative*, it means that we declare that the view looks a certai
 
 The ViewModel's job is to bind the view to the Model, interpert the model to the view. The view model always awaits for changes on the model and then interpert the changes if needed, lastly it publishes the changes to the view. The view subscribes to the interpeter and looks to know when something changes. The ViewModel can also process intent, when we want our ui View to request the Model do process a change, once the Model is changed it sends back the notification to modify the View.
 
+<img src="./mvvm.png" />
